@@ -3,7 +3,7 @@ define(['angularAMD'], function(ng) {
 
     var config = angular.module('config', [])
         .constant('ENV', {
-          baseURL: "http://192.168.0.10:",
+          baseURL: "http://10.230.51.200:",
           adSalPort: "8181",
           mdSalPort : "8181",
           ofmPort : "8181",
